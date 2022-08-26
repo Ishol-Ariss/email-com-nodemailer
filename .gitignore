@@ -1,0 +1,5 @@
+#Config file
+/backend/config
+
+#package-lock
+/backend/package-lock.json
