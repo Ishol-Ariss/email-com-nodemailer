@@ -1,6 +1,6 @@
 
 
-function cliente(){
+function mail(){
     const url = "http://localhost:3000/sendmail"
     const email = document.getElementById("email").value
     const to = document.getElementById("to").value
