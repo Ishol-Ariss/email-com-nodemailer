@@ -39,4 +39,4 @@ function sendMail(url,body,header) {
 
 
 const btnMandar = document.getElementById("btn")
-btnMandar.onclick = () => main()
+btnMandar.onclick = () => mail()
