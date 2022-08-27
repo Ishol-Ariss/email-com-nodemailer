@@ -5,25 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="email">email</label>
-    <input type="text" name="email" id="email">
+    <header>
+        <h1>Enviando Email com Node Mailer</h1>
+    </header>
+    <main>
+        <div id="Email">
+            <div id="inputs">
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
 
-    <label for="from">password</label>
-    <input type="password" name="password" id="password">
+                <label for="from">password</label>
+                <input type="password" name="password" id="password">
 
-    <label for="to">to</label>
-    <input type="text" name="to" id="to">
+                <label for="to">to</label>
+                <input type="text" name="to" id="to">
 
-    <label for="subject">subject</label>
-    <input type="text" name="subject" id="subject">
+                <label for="subject">subject</label>
+                <input type="text" name="subject" id="subject">
 
-    <label for="text">text</label>
-    <input type="text" name="text" id="text">
-
-    <button id="btn">Mandar mensagem</button>
-
+                <label for="text">text</label>
+                <input type="text" name="text" id="text">
+                </div>
+            
+                <div id="divForBtn">
+                <button id="btn">Mandar mensagem</button>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="main.js"></script>
 </body>
 </html>
